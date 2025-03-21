@@ -2,6 +2,6 @@ services:
   - type: web
     name: femovaai
     env: python
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "pip install -r requirement.txt"
     startCommand: "gunicorn app:app"
     plan: free
