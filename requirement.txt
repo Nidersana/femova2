@@ -8,3 +8,5 @@ langchain-groq
 langchain-core
 langsmith
 PyPDF2
+gunicorn
+langchain-huggingface
